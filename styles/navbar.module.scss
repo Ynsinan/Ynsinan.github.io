@@ -1,0 +1,15 @@
+
+.navbar{
+    background-color:rgb(16, 19, 15);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 7vh;
+    .leftNavbar{
+        font-size: 2rem;
+        a{
+            text-decoration: none;
+            color: white;
+        }
+    }
+}
