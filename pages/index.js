@@ -8,7 +8,19 @@ export default function Home() {
       <Head>
         <title>Yunus İNAN | Home</title>
       </Head>
-      <h1>Home Page</h1>
+      <div className="section1" id="about">
+        About Me
+      </div>
+      <div className="section2" id="projects">
+        Projects
+        
+
+
+
+      </div>
+      <div className="section3" id="contact">
+        Contact
+      </div>
     </div>
 
 
