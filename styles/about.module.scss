@@ -1,0 +1,32 @@
+$textColor: #1dd1a1;
+.about{
+    width:80%;
+    display: flex;
+    justify-content: space-between;
+    
+    
+    .aboutMe{
+        margin-top: 5rem;
+        text-align: center;
+        font-size: x-large;
+        letter-spacing: 0.3px;
+        line-height: 50px;
+        
+        .strong{
+            color: $textColor;
+        }
+        .technologies{
+            font-size: 1rem;
+        }
+    }
+    .rightSide{
+        
+        .video{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+        }
+        
+    }
+}
