@@ -1,15 +1,19 @@
 import Head from 'next/head';
 
 import React from "react";
+import About from '../components/About';
+import Contact from '../components/Contact';
+import Footer from '../components/Footer';
 
 export default function Home() {
   return (
-    <div>
+    <>
       <Head>
         <title>Yunus İNAN | Home</title>
+        <link rel="stylesheet" href="/favicon.ico" />
       </Head>
       <div className="section1" id="about">
-        About Me
+        <About></About>
       </div>
       <div className="section2" id="projects">
         Projects
@@ -19,9 +23,10 @@ export default function Home() {
 
       </div>
       <div className="section3" id="contact">
-        Contact
+        <Contact></Contact>
       </div>
-    </div>
+      <Footer></Footer>
+    </>
 
 
   )
