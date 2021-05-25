@@ -1,0 +1,55 @@
+$textColor: #1dd1a1;
+$navbarBackgroundColor :#222f3e;
+.projects{
+    width:80%;
+    margin: auto;
+    .projectsHeader{
+        text-align: center;
+        margin-bottom: 5rem;
+        .h1{
+           color: $textColor;
+           font-size: 2rem; 
+           
+        }
+        .hr{
+            display: block; height: 1px;
+            border: 0;
+            border-top: 1px solid $navbarBackgroundColor;
+            padding: 0;
+        }
+    }
+    .project{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+        background-color: white;
+        width: 80%;
+        margin: auto;
+        border-radius: 5em;
+        padding-left: 2rem;
+        margin-bottom: 1.5rem;
+        height: 4rem;
+        .projectHeader{
+            a{
+                text-decoration: none;
+                color: $navbarBackgroundColor;
+            }
+        }
+        
+        .projectTags{
+            display: flex;
+            font-family: 'M PLUS 1p', sans-serif;
+            font-size: 1.5rem;
+            align-items: center;
+            .tag{
+                margin-right: 10px;
+                border-radius: 2rem;
+                padding-left: 1.5rem;
+                padding-right: 1.5rem;
+                font-weight: bolder;
+                
+            }          
+        }
+    }
+}
