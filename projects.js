@@ -4,7 +4,7 @@ const projects = [
         name: "Todo App",
         live: "https://todo-app-ivory-eight.vercel.app/",
         github: "https://github.com/Ynsinan/Todo-App",
-        tags: ["typescript", "react", "sass"]
+        tags: ["typescript", "react", "sass", "javascript"]
     },
     {
         id: "Book-Store",

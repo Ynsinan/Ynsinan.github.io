@@ -1,20 +1,29 @@
 import React from 'react'
 import styles from '../styles/projects.module.scss'
-import projects from '../projects'
-export default function Projects({ projects }) {
-    console.log(projects);
+import projectData from '../projects'
+import Project from '../components/Project/Project'
+
+export default function Projects() {
+
     return (
         <div className={styles.projects}>
-            <h1>Projects</h1>
+            <div className={styles.projectsHeader}>
+                <h1 className={styles.h1}> My Projects</h1>
+                <hr className={styles.hr}/>
+            </div>
+            {projectData.map((elements, index) => {
+                return (
+                    <Project elements={elements} index={index}></Project>
 
+                )
+            })}
         </div>
     )
 }
-export const getStaticProps = async () => {
-    return {
-        props: {
-            projects,
-        }
-    }
-
-}
+// export const getStaticProps = async () => {
+//     return {
+//         props: {
+//             projectData,
+//         }
+//     }
+// }
