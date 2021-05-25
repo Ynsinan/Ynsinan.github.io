@@ -3,10 +3,9 @@ $textColor: #1dd1a1;
     width:80%;
     display: flex;
     justify-content: space-between;
-    
-    
     .aboutMe{
-        margin-top: 5rem;
+        width: 50%;
+        margin: auto 10px;
         text-align: center;
         font-size: x-large;
         letter-spacing: 0.3px;
@@ -14,18 +13,27 @@ $textColor: #1dd1a1;
         
         .strong{
             color: $textColor;
+            font-size: 2rem;
         }
-        .technologies{
-            font-size: 1rem;
+        .hr{
+            display: block; height: 1px;
+            border: 0;
+            border-top: 1px solid $textColor;
+            margin: 1em 0;
+            padding: 0;
         }
+        
     }
     .rightSide{
+        height: 50%;
+        margin: auto 10px;
         
         .video{
             height: 100%;
             width: 100%;
             object-fit: cover;
             box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+            
         }
         
     }

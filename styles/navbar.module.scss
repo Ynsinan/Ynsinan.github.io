@@ -11,6 +11,7 @@ $hoverColor:white;
     align-items: center;
     min-height: 7vh;
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    z-index: 1;
     .leftNavbar{
         font-size: 2rem;
         cursor: pointer;

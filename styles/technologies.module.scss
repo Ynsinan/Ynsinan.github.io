@@ -1,0 +1,21 @@
+.technologies{
+    width: 100%;
+    margin: auto 1rem;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    .header{
+        margin-bottom: 2rem;
+        
+    }
+    .skills{
+        display: flex;
+        flex-wrap: wrap;
+        .skill{
+            margin: auto 10px;
+            font-size: 2rem;
+            
+        }
+    }
+}
