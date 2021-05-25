@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from '../styles/about.module.scss';
 import Typical from 'react-typical';
+import Technologies from './About/Technologies';
 export default function About() {
 
     return (
@@ -24,10 +25,8 @@ export default function About() {
                         />
                     </strong>
                 </p>
-                <hr />
-                <div className={styles.technologies}>
-                    <h1>I use the following technologies</h1>
-                </div>
+                <hr className={styles.hr} />
+                <Technologies></Technologies>
             </div>
             <div className={styles.rightSide}>
                 <video
@@ -46,7 +45,5 @@ export default function About() {
 
         </div>
     )
-
-
 }
 
