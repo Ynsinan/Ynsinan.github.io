@@ -2,6 +2,7 @@ import React from 'react'
 import styles from '../styles/about.module.scss';
 import Typical from 'react-typical';
 import Technologies from './About/Technologies';
+import Link from 'next/link';
 export default function About() {
 
     return (
@@ -13,18 +14,25 @@ export default function About() {
                         <Typical
 
                             loop={Infinity}
-                            wrapper="b"
+                            wrapper="p"
                             steps={[
+                                'Computer Engineering Student',
+                                1500,
                                 'Frontend Developer 💻',
-                                1000,
+                                1500,
                                 'Gamer 🎮',
-                                1000,
+                                1500,
                                 'Student 👨🏽‍🎓',
-                                1000,
+                                1500,
                             ]}
                         />
                     </strong>
                 </p>
+                <button>
+                    <Link href="https://drive.google.com/file/d/1yikBTxguD19Dcd_ltftb-Y6kEfNJB-xR/view?usp=sharing">
+                        Resume
+                    </Link>
+                </button>
                 <hr className={styles.hr} />
                 <Technologies></Technologies>
             </div>
