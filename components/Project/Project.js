@@ -3,12 +3,11 @@ import styles from '../../styles/projects.module.scss'
 import Tag from '../Project/Tag';
 import Link from 'next/link'
 export default function Project({ elements, index }) {
-    console.log(elements.id);
     return (
         <div className={styles.project} key={index}>
 
             <div className={styles.projectHeader}>
-                <Link href="/">
+                <Link href={`/projects/${elements.id}`}>
                     <a> <h1>{elements.name}</h1></a>
                 </Link>
 
