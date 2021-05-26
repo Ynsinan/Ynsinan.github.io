@@ -1,0 +1,27 @@
+$iconColor: #1dd1a1;
+$iconHover :#222f3e;
+.projectDetail{
+    height: 100vh;
+    padding-top: 10rem;
+    width: 70%;
+    margin:0 auto;
+    .icon{
+        color: $iconColor;
+        &:hover{
+            color: $iconHover;
+        }
+    }
+    .projectName{
+        text-align: center;
+        font-size: 3rem;
+    }
+    .main{
+        text-align: center;
+        height: 40vh;
+        background-color: gray;
+    }
+    .footer{
+        text-align: center;
+        background-color: rgb(67, 51, 51);
+    }
+}
