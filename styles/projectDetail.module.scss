@@ -1,5 +1,5 @@
-$iconColor: #1dd1a1;
-$iconHover :#222f3e;
+$iconColor: #015761;
+$iconHover :#F6DB4F;
 .projectDetail{
     height: 100vh;
     padding-top: 10rem;
@@ -14,14 +14,39 @@ $iconHover :#222f3e;
     .projectName{
         text-align: center;
         font-size: 3rem;
+        font-weight: bolder;
+        color: $iconColor;
     }
     .main{
-        text-align: center;
+        font-size: 2rem;
+        padding: 2rem;
         height: 40vh;
-        background-color: gray;
+        margin:2rem auto;
+        display: flex;
+        flex-direction: row;
+        .links{
+            
+            .connectionButton{
+                width: 15rem;
+                height: 2.5rem;
+                border: none;
+                font-size: 1.5rem;
+                background-color: $iconColor;
+                border-radius: 1rem;
+                margin: auto;
+                &:hover{
+                    background-color: $iconHover;
+                }
+                
+                a{
+                    text-decoration: none;
+                    color: white;
+
+                }
+            }
+            
+           
+        }
     }
-    .footer{
-        text-align: center;
-        background-color: rgb(67, 51, 51);
-    }
+    
 }

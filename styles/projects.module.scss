@@ -1,4 +1,4 @@
-$textColor: #1dd1a1;
+$textColor: #015761;
 $navbarBackgroundColor :#222f3e;
 .projects{
     width:80%;
@@ -8,7 +8,9 @@ $navbarBackgroundColor :#222f3e;
         margin-bottom: 5rem;
         .h1{
            color: $textColor;
-           font-size: 2rem; 
+           font-size: 2.3rem;
+           font-weight: bold;
+            
            
         }
         .hr{
@@ -43,12 +45,14 @@ $navbarBackgroundColor :#222f3e;
             font-family: 'M PLUS 1p', sans-serif;
             font-size: 1.5rem;
             align-items: center;
+            width: auto;
             .tag{
                 margin-right: 10px;
                 border-radius: 2rem;
                 padding-left: 1.5rem;
                 padding-right: 1.5rem;
                 font-weight: bolder;
+                
                 
             }          
         }

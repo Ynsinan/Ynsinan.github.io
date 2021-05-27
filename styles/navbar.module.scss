@@ -1,6 +1,6 @@
-$navbarTextColor: #1dd1a1;
-$navbarBackgroundColor :#222f3e;
-$hoverColor:white;
+$navbarTextColor: #FFFFFF;
+$navbarBackgroundColor :#015761;
+$hoverColor:#F6DB4F;
 .navbar{
     position: fixed;
     width: 100%;
@@ -14,11 +14,13 @@ $hoverColor:white;
     z-index: 1;
     .leftNavbar{
         font-size: 2rem;
+        font-weight: bold;
         cursor: pointer;
         text-decoration: none;
         color: $navbarTextColor;
         .leftFragment,.rightFragment{
             color:$navbarTextColor;
+            font-weight: bold;
       
         }
         
@@ -45,6 +47,7 @@ $hoverColor:white;
     .rightNavbar{
         display: flex;
         font-size: 1.5rem;
+        font-weight: bold;
         .navbarLinks{
             display: flex;
             z-index: 1;

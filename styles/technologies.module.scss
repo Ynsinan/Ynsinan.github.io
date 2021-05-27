@@ -7,14 +7,16 @@
     text-align: center;
     .header{
         margin-bottom: 2rem;
+        width: 100%;
         
     }
     .skills{
         display: flex;
         flex-wrap: wrap;
+        width: 100%;
         .skill{
             margin: auto 10px;
-            font-size: 2rem;
+            width: 20%;
             
         }
     }
