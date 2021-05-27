@@ -4,12 +4,13 @@ import Typical from 'react-typical';
 import Technologies from './About/Technologies';
 import Link from 'next/link';
 export default function About() {
+    
 
     return (
         <div className={styles.about}>
             <div className={styles.aboutMe}>
                 <h1>Hi I'm Yunus INAN</h1>
-                <p>I'm a{' '}
+                <h3>I'm a{' '}
                     <strong className={styles.strong}>
                         <Typical
 
@@ -27,10 +28,10 @@ export default function About() {
                             ]}
                         />
                     </strong>
-                </p>
-                <button>
-                    <Link href="https://drive.google.com/file/d/1yikBTxguD19Dcd_ltftb-Y6kEfNJB-xR/view?usp=sharing">
-                        Resume
+                </h3>
+                <button className={styles.resumeButton}>
+                    <Link style={{ textDecoration: 'none' }} href="https://drive.google.com/file/d/1yikBTxguD19Dcd_ltftb-Y6kEfNJB-xR/view?usp=sharing">
+                        <a>Resume</a>
                     </Link>
                 </button>
                 <hr className={styles.hr} />

@@ -8,8 +8,8 @@ export default function Projects() {
     return (
         <div className={styles.projects}>
             <div className={styles.projectsHeader}>
-                <h1 className={styles.h1}> My Projects</h1>
-                <hr className={styles.hr}/>
+                <p className={styles.h1}> MY PROJECTS</p>
+                <hr className={styles.hr} />
             </div>
             {projectData.map((elements, index) => {
                 return (

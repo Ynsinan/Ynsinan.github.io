@@ -17,14 +17,30 @@ const ProjectDetails = ({ project }) => {
                 </Link>
                 <div className={styles.projectName}>
                     {project.name}
-                    <hr />
+
                 </div>
                 <div className={styles.main}>
-                    <h1>Main</h1>
+                    <div className={styles.content}>
+                        {project.content}
+                    </div>
+
+                    <div className={styles.links}>
+                        <button className={styles.connectionButton}>
+                            <Link style={{ textDecoration: 'none' }} href={project.live}>
+                                <a>Live Connection</a>
+                            </Link>
+                        </button>
+                        <button className={styles.connectionButton}>
+                            <Link style={{ textDecoration: 'none' }} href={project.github}>
+                                <a>Github Repository</a>
+                            </Link>
+                        </button>
+
+                    </div>
+
+
                 </div>
-                <div className={styles.footer}>
-                    <h1>footer</h1>
-                </div>
+
             </div>
         </div>
     );
