@@ -1,16 +1,15 @@
 // @import url("https://fonts.googleapis.com/css?family=Merriweather:300|Work+Sans:700,800");
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,200&family=M+PLUS+1p:wght@300&display=swap');
 
-$backgroundColor: #1dd1a1;
-$navbarBackgroundColor :#015761;
 
+@import "variables";
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   list-style: none;
   ::selection {
-    background: $backgroundColor;
+    background: $mainColor2;
   }
 }
 html,
@@ -34,8 +33,8 @@ body {
   }
   .section3{
     width: 100%;
-    
-    background-color:$navbarBackgroundColor ;
+    max-height: 14rem;
+    background-color:$mainColor1 ;
     padding: 5rem;
     display: flex;
     align-items: center;

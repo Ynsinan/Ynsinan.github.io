@@ -1,11 +1,10 @@
-$navbarTextColor: #FFFFFF;
-$navbarBackgroundColor :#015761;
-$hoverColor:#F6DB4F;
+
+@import "variables";
 .navbar{
     position: fixed;
     width: 100%;
     // background-color:transparent;
-    background-color: $navbarBackgroundColor ;
+    background-color: $mainColor1 ;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -17,19 +16,19 @@ $hoverColor:#F6DB4F;
         font-weight: bold;
         cursor: pointer;
         text-decoration: none;
-        color: $navbarTextColor;
+        color: $mainColor3;
         .leftFragment,.rightFragment{
-            color:$navbarTextColor;
+            color:$mainColor3;
             font-weight: bold;
       
         }
         
         .logo{
             position: relative;
-            color: $navbarTextColor;
+            color: $mainColor3;
             font-weight: bolder;
             overflow: hidden;
-            background: linear-gradient(to right, $hoverColor, $hoverColor 50%, $navbarTextColor 50%);
+            background: linear-gradient(to right, $mainColor2, $mainColor2 50%, $mainColor3 50%);
             background-clip: text;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
@@ -64,10 +63,10 @@ $hoverColor:#F6DB4F;
                 }
                a{
                 text-decoration: none;
-                color: $navbarTextColor;
+                color: $mainColor3;
                 transition: .7s ease-in-out;
                     &:hover{
-                        color: $hoverColor;
+                        color: $mainColor2;
 
                        
                     }
@@ -81,7 +80,7 @@ $hoverColor:#F6DB4F;
                 left: 0;
                 right: 0;
                 height: 100vh;
-                background-color: $navbarBackgroundColor;
+                background-color: $mainColor1;
                 padding: 40px;
                 width: 50%;
                 transition: 0.5s ease-in-out;
@@ -93,7 +92,7 @@ $hoverColor:#F6DB4F;
     .hamburger {
       display: none;
       cursor: pointer;
-      color: $navbarTextColor;
+      color: $mainColor3;
       @media screen and (max-width: 900px) {
         display: block;
       }

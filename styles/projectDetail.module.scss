@@ -1,21 +1,22 @@
-$iconColor: #015761;
-$iconHover :#F6DB4F;
+
+@import "variables";
 .projectDetail{
     height: 100vh;
     padding-top: 10rem;
     width: 70%;
     margin:0 auto;
     .icon{
-        color: $iconColor;
+        color: $mainColor1;
+        cursor: pointer;
         &:hover{
-            color: $iconHover;
+            color: $mainColor2;
         }
     }
     .projectName{
         text-align: center;
         font-size: 3rem;
         font-weight: bolder;
-        color: $iconColor;
+        color: $mainColor2;
     }
     .main{
         font-size: 2rem;
@@ -31,11 +32,11 @@ $iconHover :#F6DB4F;
                 height: 2.5rem;
                 border: none;
                 font-size: 1.5rem;
-                background-color: $iconColor;
+                background-color: $mainColor1;
                 border-radius: 1rem;
                 margin: auto;
                 &:hover{
-                    background-color: $iconHover;
+                    background-color: $mainColor2;
                 }
                 
                 a{

@@ -1,5 +1,6 @@
 $textColor: #015761;
 $navbarBackgroundColor :#222f3e;
+@import "variables";
 .projects{
     width:80%;
     margin: auto;
@@ -7,7 +8,7 @@ $navbarBackgroundColor :#222f3e;
         text-align: center;
         margin-bottom: 5rem;
         .h1{
-           color: $textColor;
+           color: $mainColor1;
            font-size: 2.3rem;
            font-weight: bold;
             
@@ -16,7 +17,7 @@ $navbarBackgroundColor :#222f3e;
         .hr{
             display: block; height: 1px;
             border: 0;
-            border-top: 1px solid $navbarBackgroundColor;
+            border-top: 1px solid black;
             box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
             padding: 0;
         }
@@ -25,18 +26,19 @@ $navbarBackgroundColor :#222f3e;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+        // box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
         background-color: white;
         width: 80%;
         margin: auto;
-        border-radius: 5em;
+        border: 4px solid $mainColor1;
+        // border-radius: 5em;
         padding-left: 2rem;
         margin-bottom: 1.5rem;
         height: 4rem;
         .projectHeader{
             a{
                 text-decoration: none;
-                color: $navbarBackgroundColor;
+                color: black;
             }
         }
         
@@ -48,7 +50,7 @@ $navbarBackgroundColor :#222f3e;
             width: auto;
             .tag{
                 margin-right: 10px;
-                border-radius: 2rem;
+                // border-radius: 2rem;
                 padding-left: 1.5rem;
                 padding-right: 1.5rem;
                 font-weight: bolder;

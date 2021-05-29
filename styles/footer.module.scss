@@ -1,13 +1,14 @@
-$navbarBackgroundColor :#015761;
+
+@import "variables";
 .footer{
-    background-color: $navbarBackgroundColor;
+    background-color: $mainColor1;
 
     text-align: center;
     .footertext{
         display:flex;
         justify-content:center;
         color: white;
-        text-shadow: 10px 10px 10px black;
+        // text-shadow: 10px 10px 10px black;
         font-family: 'Work Sans', sans-serif;
     }
 }
