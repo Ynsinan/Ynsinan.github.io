@@ -25,14 +25,41 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    @media screen and (max-width: $xxxl) {
+      padding-top: 20rem;
+      padding-left: 5rem;
+      padding-right: 5rem;
+      
+    }
+    @media screen and (max-width: $xxl) {
+      padding-top: 25rem;
+      padding-left: 1rem;
+      padding-right: 1rem;
+
+    }
+    @media screen and (max-width: $xl) {
+      padding-top:25rem;
+    }
+    @media screen and (max-width: $l) {
+      padding-top:24rem;
+    }
+
   }
   .section2{
     width: 100%;
     background-color: white;
     padding: 10rem;
+    @media screen and (max-width: $xxxl) {
+      padding:5rem;
+    }
+    @media screen and (max-width: $m) {
+      padding-top:10rem;
+    }
+    
   }
   .section3{
     width: 100%;
+    
     max-height: 14rem;
     background-color:$mainColor1 ;
     padding: 5rem;

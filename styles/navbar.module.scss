@@ -3,6 +3,7 @@
 .navbar{
     position: fixed;
     width: 100%;
+ 
     // background-color:transparent;
     background-color: $mainColor1 ;
     display: flex;
@@ -17,6 +18,9 @@
         cursor: pointer;
         text-decoration: none;
         color: $mainColor3;
+        @media screen and (max-width: $xl) {
+            font-size: 1.5rem;
+        }
         .leftFragment,.rightFragment{
             color:$mainColor3;
             font-weight: bold;
@@ -79,12 +83,13 @@
                 top: 0;
                 left: 0;
                 right: 0;
-                height: 100vh;
+                height: 110vh;
+                
                 background-color: $mainColor1;
                 padding: 40px;
-                width: 50%;
+                width: 60%;
                 transition: 0.5s ease-in-out;
-                transform: translateX(900px);
+                transform: translateX(-900px);
              }
         }
 

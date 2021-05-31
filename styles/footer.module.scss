@@ -1,14 +1,11 @@
 
 @import "variables";
 .footer{
+    width: 100%;
     background-color: $mainColor1;
-
     text-align: center;
     .footertext{
-        display:flex;
-        justify-content:center;
         color: white;
-        // text-shadow: 10px 10px 10px black;
         font-family: 'Work Sans', sans-serif;
     }
 }

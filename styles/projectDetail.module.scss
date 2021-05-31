@@ -25,6 +25,7 @@
         margin:2rem auto;
         display: flex;
         flex-direction: row;
+        
         .links{
             
             .connectionButton{
@@ -35,6 +36,7 @@
                 background-color: $mainColor1;
                 border-radius: 1rem;
                 margin: auto;
+                
                 &:hover{
                     background-color: $mainColor2;
                 }
