@@ -18,6 +18,7 @@ export default function Technologies() {
                             scale: 1
                         }}
                         transition={{
+                            delay: 1,
                             type: "spring",
                             stiffness: 500,
                             damping: 400
@@ -33,6 +34,7 @@ export default function Technologies() {
                             scale: 1
                         }}
                         transition={{
+                            delay: 1,
                             type: "spring",
                             stiffness: 500,
                             damping: 400
@@ -48,6 +50,7 @@ export default function Technologies() {
                             scale: 1
                         }}
                         transition={{
+                            delay: 1,
                             type: "spring",
                             stiffness: 500,
                             damping: 400
@@ -63,6 +66,7 @@ export default function Technologies() {
                             scale: 1
                         }}
                         transition={{
+                            delay: 1,
                             type: "spring",
                             stiffness: 500,
                             damping: 400
@@ -79,6 +83,7 @@ export default function Technologies() {
                             scale: 1
                         }}
                         transition={{
+                            delay: 1,
                             type: "spring",
                             stiffness: 500,
                             damping: 400
@@ -94,6 +99,7 @@ export default function Technologies() {
                             scale: 1
                         }}
                         transition={{
+                            delay: 1,
                             type: "spring",
                             stiffness: 500,
                             damping: 400
@@ -109,6 +115,7 @@ export default function Technologies() {
                             scale: 1
                         }}
                         transition={{
+                            delay: 1,
                             type: "spring",
                             stiffness: 500,
                             damping: 400
@@ -124,6 +131,7 @@ export default function Technologies() {
                             scale: 1
                         }}
                         transition={{
+                            delay: 1,
                             type: "spring",
                             stiffness: 500,
                             damping: 400
@@ -139,6 +147,7 @@ export default function Technologies() {
                             scale: 1
                         }}
                         transition={{
+                            delay: 1,
                             type: "spring",
                             stiffness: 500,
                             damping: 400
