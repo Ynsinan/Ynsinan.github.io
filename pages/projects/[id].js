@@ -5,7 +5,7 @@ import Link from "next/link"
 import { IoChevronBackCircle } from "react-icons/io5"
 const ProjectDetails = ({ project }) => {
     return (
-        <div>
+        <>
             <Head>
                 <title>Project | {project.name}</title>
                 <link rel="icon" href="/favicon.ico" />
@@ -13,7 +13,8 @@ const ProjectDetails = ({ project }) => {
             <div className={styles.projectDetail}>
 
                 <Link href="/">
-                    <IoChevronBackCircle size={50} className={styles.icon} />
+                    <a><IoChevronBackCircle size={50} className={styles.icon} /></a>
+
                 </Link>
                 <div className={styles.projectName}>
                     {project.name}
@@ -42,7 +43,7 @@ const ProjectDetails = ({ project }) => {
                 </div>
 
             </div>
-        </div>
+        </>
     );
 };
 
