@@ -18,10 +18,6 @@ export default function Home() {
       </div>
       <div className="section2" id="projects">
         <Projects></Projects>
-
-
-
-
       </div>
       <div className="section3" id="contact">
         <Contact></Contact>

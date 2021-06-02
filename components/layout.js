@@ -6,7 +6,8 @@ export default function Layout({ children }) {
     return (
         <div className={styles.layout}>
             <Navigation />
-            <div className={styles.children}>{children}</div>
+
+            <div className={styles.children}>{children && children}</div>
         </div>
 
     )
