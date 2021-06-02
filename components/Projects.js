@@ -14,7 +14,7 @@ export default function Projects() {
             {projectData.map((elements, index) => {
                 return (
 
-                    <Project elements={elements} index={index}></Project>
+                    <Project elements={elements} key={index}></Project>
 
                 )
             })}

@@ -16,7 +16,7 @@ export default function Project({ elements, index }) {
                 {elements.tags.map((tag, index) => {
                     return (
 
-                        <Tag tag={tag} index={index}></Tag>
+                        <Tag tag={tag} key={index}></Tag>
 
                     )
                 })}
