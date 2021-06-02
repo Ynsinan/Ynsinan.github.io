@@ -3,7 +3,7 @@ import styles from "../styles/contact.module.scss"
 import {
     AiFillLinkedin,
     AiFillGithub,
-    AiFillInstagram,
+
     AiOutlineMail,
 } from "react-icons/ai";
 export default function Contact() {
@@ -20,11 +20,7 @@ export default function Contact() {
                 <a href="mailto:yns.inan1660@gmail.com">
                     <AiOutlineMail className={styles.icon} size={40} />
                 </a>
-
-
             </div>
-
-
         </div>
     )
 }

@@ -13,6 +13,7 @@ export default function Projects() {
             </div>
             {projectData.map((elements, index) => {
                 return (
+
                     <Project elements={elements} index={index}></Project>
 
                 )

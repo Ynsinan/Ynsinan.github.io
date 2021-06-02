@@ -15,6 +15,7 @@ export default function Project({ elements, index }) {
             <div className={styles.projectTags}>
                 {elements.tags.map((tag, index) => {
                     return (
+
                         <Tag tag={tag} index={index}></Tag>
 
                     )
