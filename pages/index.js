@@ -12,6 +12,7 @@ export default function Home() {
       <Head>
         <title>Yunus İNAN | Home</title>
         <link rel="stylesheet" href="/favicon.ico" />
+        <meta name="description" content="frontend developer projects personal website"></meta>
       </Head>
       <div className="section1" id="about">
         <About></About>

@@ -9,6 +9,7 @@ const ProjectDetails = ({ project }) => {
             <Head>
                 <title>Project | {project.name}</title>
                 <link rel="icon" href="/favicon.ico" />
+                <meta name="description" content="project personal website"></meta>
             </Head>
             <div className={styles.projectDetail}>
 
