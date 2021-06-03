@@ -16,6 +16,9 @@ export default function Tag({ tag, index }) {
         else if (tag === "javascript") {
             setBgColor("#EFD81D");
         }
+        else if (tag === "nextjs") {
+            setBgColor("#000000");
+        }
     }, [tag])
     return (
         <div className={styles.projectTag} key={index}>

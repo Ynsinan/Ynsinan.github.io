@@ -1,5 +1,13 @@
 const projects = [
     {
+        id: "Personal-Website",
+        name: "Personal Website",
+        content: "My own personal website and also my first NextJs experience.In general, while making this website, I learned the structure and working logic of NextJs, and also got information about SSR and CSR.",
+        live: "https://yunusinan.me/",
+        github: "https://github.com/Ynsinan/Ynsinan.github.io",
+        tags: ["nextjs", "react", "sass", "javascript"]
+    },
+    {
         id: "Todo-App",
         name: "Todo App",
         content: "ReactJs made a review that I keep working on my information generally. Does not forget you and your duties by using the Localstorage structure. I present it to you with an original and sensitive design.",
