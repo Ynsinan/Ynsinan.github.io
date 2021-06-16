@@ -2,7 +2,7 @@
 @import "variables";
 .technologies{
     width: 100%;
-    margin: auto 1rem;
+    margin: auto auto;
     font-size: 1rem;
     display: flex;
     flex-direction: column;
@@ -18,6 +18,7 @@
     .header{
         margin-bottom: 2rem;
         width: 100%;
+        
     }
     .skills{
         display: flex;
@@ -27,18 +28,20 @@
             margin: auto auto;
                 
         }
+        
         .skill{
             margin: auto 10px;
             width: 20%;
             @media screen and (max-width: $xxxxxl) {
                 width: 40%;
+                margin: auto auto;
             }
             @media screen and (max-width: $xxxl) {
-                width: 20%;
+                width: 30%;
                 
             }
              @media screen and (max-width: $s) {
-                width: 25%;
+                width: 30%;
                 
             }
             
