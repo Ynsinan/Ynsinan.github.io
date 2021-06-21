@@ -4,7 +4,7 @@ import Typical from 'react-typical';
 import Technologies from './About/Technologies';
 import Link from 'next/link';
 export default function About() {
-    
+
 
     return (
         <div className={styles.about}>
@@ -30,7 +30,7 @@ export default function About() {
                     </strong>
                 </h3>
                 <button className={styles.resumeButton}>
-                    <Link style={{ textDecoration: 'none' }} href="https://drive.google.com/file/d/1yikBTxguD19Dcd_ltftb-Y6kEfNJB-xR/view?usp=sharing">
+                    <Link style={{ textDecoration: 'none' }} href="https://drive.google.com/file/d/1a3pVTV1e3kdZaD7j1OeVhK2AC8zmMv9z/view?usp=sharing">
                         <a>Resume</a>
                     </Link>
                 </button>
