@@ -13,7 +13,7 @@ const ProjectDetails = ({ project }) => {
             </Head>
             <div className={styles.projectDetail}>
 
-                <Link href="/">
+                <Link href="/#projects">
                     <a><IoChevronBackCircle size={50} className={styles.icon} /></a>
 
                 </Link>
