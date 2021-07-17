@@ -18,6 +18,10 @@ export default function Tag({ tag, index }) {
         }
         else if (tag === "nextjs") {
             setBgColor("#000000");
+        } else if (tag === "html") {
+            setBgColor("#E96228");
+        } else if (tag === "css") {
+            setBgColor("#2862E9");
         }
     }, [tag])
     return (
