@@ -8,7 +8,7 @@ const projects = [
     },
     {
         id: "Trendyol-Bootcamp-HW1",
-        name: "Trendyol Home Page & Product List Page Clone",
+        name: "Trendyol Home & Product Page Clone",
         content: "We coded the Home Page and Product List section of trendyol.com together as a teamwork with HTML vs CSS as a 1st week homework at the Frontend Developer Bootcamp organized by the Trendyol and Kodluyoruz teams.",
 
         github: "https://github.com/Ynsinan/week-1-workshop-assignment-voltran",
