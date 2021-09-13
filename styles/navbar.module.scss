@@ -41,6 +41,7 @@
             transition: background-position 1s ease;
             text-decoration: none; // text decorations are clipped in WebKit browsers
             &:hover {
+                filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.3));
                 background-position: 0 100%;
               
             }
@@ -71,7 +72,7 @@
                 transition: .7s ease-in-out;
                     &:hover{
                         color: $mainColor2;
-
+                        filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.3));
                        
                     }
                }
