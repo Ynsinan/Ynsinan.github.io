@@ -17,8 +17,7 @@ export default function About() {
                             loop={Infinity}
                             wrapper="p"
                             steps={[
-                                'Computer Engineering Student',
-                                1500,
+
                                 'Frontend Developer 💻',
                                 1500,
                                 'Gamer 🎮',
