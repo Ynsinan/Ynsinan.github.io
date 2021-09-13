@@ -12,37 +12,34 @@ const ProjectDetails = ({ project }) => {
                 <meta name="description" content="project personal website"></meta>
             </Head>
             <div className={styles.projectDetail}>
-
                 <Link href="/#projects">
                     <a><IoChevronBackCircle size={50} className={styles.icon} /></a>
-
                 </Link>
                 <div className={styles.projectName}>
                     {project.name}
-
                 </div>
                 <div className={styles.main}>
                     <div className={styles.content}>
                         {project.content}
                     </div>
-
                     <div className={styles.links}>
-                        <button className={styles.connectionButton}>
-                            <Link style={{ textDecoration: 'none' }} href={project.live}>
-                                <a>Live Connection</a>
-                            </Link>
-                        </button>
-                        <button className={styles.connectionButton}>
-                            <Link style={{ textDecoration: 'none' }} href={project.github}>
-                                <a>Github Repository</a>
-                            </Link>
-                        </button>
+                        {project.live ?
+                            <button className={styles.connectionButton}>
+                                <Link style={{ textDecoration: 'none' }} href={project.live}>
+                                    <a target="_blank">Live Connection</a>
+                                </Link>
+                            </button>
+                            : null}
+                        {project.github ?
 
+                            <button className={styles.connectionButton}>
+                                <Link style={{ textDecoration: 'none' }} href={project.github}>
+                                    <a target="_blank">Github Repository</a>
+                                </Link>
+                            </button>
+                            : null}
                     </div>
-
-
                 </div>
-
             </div>
         </>
     );

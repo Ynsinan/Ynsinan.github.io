@@ -3,7 +3,6 @@ const projects = [
         id: "Trendyol-Bootcamp-HW2",
         name: "Rick and Morty Challange",
         content: "Trendyol Frontend Bootcamp 3rd week homework.This week I tried to do a listing detail page using an api and a pagination, although not fully performing.I'm happy with the rest except the pagination",
-        live: "https://yunusinan.me/",
         github: "https://github.com/Ynsinan/week-3-react-yunus-inan",
         tags: ["react", "sass"]
     },
@@ -11,7 +10,7 @@ const projects = [
         id: "Trendyol-Bootcamp-HW1",
         name: "Trendyol Home Page & Product List Page Clone",
         content: "We coded the Home Page and Product List section of trendyol.com together as a teamwork with HTML vs CSS as a 1st week homework at the Frontend Developer Bootcamp organized by the Trendyol and Kodluyoruz teams.",
-        live: "https://yunusinan.me/",
+
         github: "https://github.com/Ynsinan/week-1-workshop-assignment-voltran",
         tags: ["html", "css"]
     },

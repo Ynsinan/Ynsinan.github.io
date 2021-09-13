@@ -30,9 +30,9 @@ export default function About() {
                     </strong>
                 </h3>
                 <button className={styles.resumeButton}>
-                    <Link style={{ textDecoration: 'none' }} href="https://drive.google.com/file/d/1eGX-Dg3Vk5jw9CvI-S7OeLWQ7vT-l0PZ/view?usp=sharing">
-                        <a>Resume</a>
-                    </Link>
+                    <a target="_blank" style={{ textDecoration: 'none' }} href="https://drive.google.com/file/d/1eGX-Dg3Vk5jw9CvI-S7OeLWQ7vT-l0PZ/view?usp=sharing">
+                        Resume
+                    </a>
                 </button>
                 <hr className={styles.hr} />
                 <Technologies></Technologies>
