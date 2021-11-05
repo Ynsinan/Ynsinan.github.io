@@ -29,7 +29,7 @@ export default function About() {
                     </strong>
                 </h3>
                 <button className={styles.resumeButton}>
-                    <a target="_blank" style={{ textDecoration: 'none' }} href="https://drive.google.com/file/d/1eGX-Dg3Vk5jw9CvI-S7OeLWQ7vT-l0PZ/view?usp=sharing">
+                    <a target="_blank" style={{ textDecoration: 'none' }} href="https://drive.google.com/file/d/1DCXjt7WTI1tfvpDl5q2MP69LC33LddAo/view?usp=sharing">
                         Resume
                     </a>
                 </button>
