@@ -1,52 +1,44 @@
-
 @import "variables";
-.technologies{
+.technologies {
+  width: 100%;
+  margin: auto auto;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  @media screen and (max-width: $xxxxxl) {
+    font-size: 0.7rem;
+  }
+  @media screen and (max-width: $xxxxl) {
+    font-size: 0.5rem;
+    margin-top: 1rem;
+  }
+  .header {
+    margin-bottom: 2rem;
     width: 100%;
-    margin: auto auto;
-    font-size: 1rem;
+  }
+  .skills {
     display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    @media screen and (max-width: $xxxxxl) {
-        font-size: 0.7rem;
+    flex-wrap: wrap;
+    width: 100%;
+    @media screen and (max-width: $xxxl) {
+      margin: auto auto;
     }
-    @media screen and (max-width: $xxxxl) {
-        font-size: 0.5rem;
-        margin-top: 1rem;
-    }
-    .header{
-        margin-bottom: 2rem;
-        width: 100%;
-        
-    }
-    .skills{
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-        @media screen and (max-width: $xxxl) {
-            margin: auto auto;
-                
-        }
-        
-        .skill{
-            margin: auto 10px;
-            width: 20%;
-            @media screen and (max-width: $xxxxxl) {
-                width: 40%;
-                margin: auto auto;
-            }
-            @media screen and (max-width: $xxxl) {
-                width: 30%;
-                
-            }
-             @media screen and (max-width: $s) {
-                width: 30%;
-                
-            }
-            
 
-            
-        }
+    .skill {
+      margin: auto 10px;
+      width: 20%;
+      @media screen and (max-width: $xxxxxl) {
+        width: 40%;
+        margin: auto auto;
+      }
+      @media screen and (max-width: $xxxl) {
+        width: 30%;
+      }
+      @media screen and (max-width: $s) {
+        width: 30%;
+      }
     }
+  }
 }

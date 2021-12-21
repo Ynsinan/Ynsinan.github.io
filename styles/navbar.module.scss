@@ -1,106 +1,105 @@
-
 @import "variables";
-.navbar{
-    position: fixed;
-    width: 100%;
- 
-    // background-color:transparent;
-    background-color: $mainColor1 ;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    min-height: 7vh;
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-    z-index: 1;
-    .leftNavbar{
-        font-size: 2rem;
-        font-weight: bold;
-        cursor: pointer;
-        text-decoration: none;
-        color: $mainColor3;
-        @media screen and (max-width: $xl) {
-            font-size: 1.5rem;
-        }
-        .leftFragment,.rightFragment{
-            color:$mainColor3;
-            font-weight: bold;
-      
-        }
-        
-        .logo{
-            position: relative;
-            color: $mainColor3;
-            font-weight: bolder;
-            overflow: hidden;
-            background: linear-gradient(to right, $mainColor2, $mainColor2 50%, $mainColor3 50%);
-            background-clip: text;
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-size: 200% 100%;
-            background-position: 100%;
-            transition: background-position 1s ease;
-            text-decoration: none; // text decorations are clipped in WebKit browsers
-            &:hover {
-                filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.3));
-                background-position: 0 100%;
-              
-            }
-        }
-        
-    }
-    .rightNavbar{
-        display: flex;
-        font-size: 1.5rem;
-        font-weight: bold;
-        .navbarLinks{
-            display: flex;
-            z-index: 1;
-            li{
-                cursor: pointer;
-                
-                padding: 1rem;
-                 @media screen and (max-width: 900px) {
-                    padding: 25px;
-                    border-bottom: 1px solid #fff;
-                    &:last-of-type {
-                        border-bottom: 0px solid #fff;
-                    }
-                }
-               a{
-                text-decoration: none;
-                color: $mainColor3;
-                transition: .7s ease-in-out;
-                    &:hover{
-                        color: $mainColor2;
-                        filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.3));
-                       
-                    }
-               }
-               
-            }
-             @media screen and (max-width: 900px) {
-                position: absolute;
-                display: block;
-                top: 0;
-                left: 0;
-                right: 0;
-                height: 110vh;
-                
-                background-color: $mainColor1;
-                padding: 40px;
-                width: 60%;
-                transition: 0.5s ease-in-out;
-                transform: translateX(-900px);
-             }
-        }
+.navbar {
+  position: fixed;
+  width: 100%;
 
+  // background-color:transparent;
+  background-color: $mainColor1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 7vh;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  z-index: 1;
+  .leftNavbar {
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    color: $mainColor3;
+    @media screen and (max-width: $xl) {
+      font-size: 1.5rem;
     }
-    .hamburger {
-      display: none;
-      cursor: pointer;
+    .leftFragment,
+    .rightFragment {
       color: $mainColor3;
-      @media screen and (max-width: 900px) {
-        display: block;
+      font-weight: bold;
+    }
+
+    .logo {
+      position: relative;
+      color: $mainColor3;
+      font-weight: bolder;
+      overflow: hidden;
+      background: linear-gradient(
+        to right,
+        $mainColor2,
+        $mainColor2 50%,
+        $mainColor3 50%
+      );
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-size: 200% 100%;
+      background-position: 100%;
+      transition: background-position 1s ease;
+      text-decoration: none; // text decorations are clipped in WebKit browsers
+      &:hover {
+        filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.3));
+        background-position: 0 100%;
       }
     }
+  }
+  .rightNavbar {
+    display: flex;
+    font-size: 1.5rem;
+    font-weight: bold;
+    .navbarLinks {
+      display: flex;
+      z-index: 1;
+      li {
+        cursor: pointer;
+
+        padding: 1rem;
+        @media screen and (max-width: 900px) {
+          padding: 25px;
+          border-bottom: 1px solid #fff;
+          &:last-of-type {
+            border-bottom: 0px solid #fff;
+          }
+        }
+        a {
+          text-decoration: none;
+          color: $mainColor3;
+          transition: 0.7s ease-in-out;
+          &:hover {
+            color: $mainColor2;
+            filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.3));
+          }
+        }
+      }
+      @media screen and (max-width: 900px) {
+        position: absolute;
+        display: block;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 110vh;
+
+        background-color: $mainColor1;
+        padding: 40px;
+        width: 60%;
+        transition: 0.5s ease-in-out;
+        transform: translateX(-900px);
+      }
+    }
+  }
+  .hamburger {
+    display: none;
+    cursor: pointer;
+    color: $mainColor3;
+    @media screen and (max-width: 900px) {
+      display: block;
+    }
+  }
 }

@@ -1,90 +1,78 @@
-
 @import "variables";
-.projectDetail{
-    height: 100vh;
-    padding-top: 10rem;
-    width: 70%;
-    margin:0 auto;
-    .icon{
-        color: $mainColor1;
-        cursor: pointer;
-        @media screen and (max-width: $m) {
-            width: 2.5rem;        
-        }
-        &:hover{
-            color: $mainColor2;
-        }
+.projectDetail {
+  height: 100vh;
+  padding-top: 10rem;
+  width: 70%;
+  margin: 0 auto;
+  .icon {
+    color: $mainColor1;
+    cursor: pointer;
+    @media screen and (max-width: $m) {
+      width: 2.5rem;
     }
-    .projectName{
-        text-align: center;
-        font-size: 3rem;
-        font-weight: bolder;
-        color: $mainColor2;
-        @media screen and (max-width: $xxl) {
-            font-size: 2.4rem;
-            
-        }
-        @media screen and (max-width: $m) {
-            font-size: 2rem;          
-        }
+    &:hover {
+      color: $mainColor2;
     }
-    .main{
-        font-size: 2rem;
-        padding: 2rem;
-        height: 40vh;
-        margin:2rem auto;
-        display: flex;
-        flex-direction: row;
-        
-        
-        @media screen and (max-width: $xxxl) {
-            flex-direction: column;
-            align-items: center;
-            
-        }
-        @media screen and (max-width: $xxl) {
-            font-size: 1.4rem;
-            margin: 0.3rem auto;
-            
-        }
-        @media screen and (max-width: $m) {
-            font-size: 1rem;          
-        }
-        .links{
-            
-            .connectionButton{
-                width: 15rem;
-                height: 2.5rem;
-                border: none;
-                font-size: 1.5rem;
-                background-color: $mainColor1;
-                border-radius: 1rem;
-                margin: auto;
-                @media screen and (max-width: $xxxl) {
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    margin-top: 1rem;
-                    
-                }
-                @media screen and (max-width: $m) {
-                   font-size: 1rem;
-                   width: 10rem;
-                    
-                }
-                &:hover{
-                    background-color: $mainColor2;
-                }
-                
-                a{
-                    text-decoration: none;
-                    color: white;
+  }
+  .projectName {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bolder;
+    color: $mainColor2;
+    @media screen and (max-width: $xxl) {
+      font-size: 2.4rem;
+    }
+    @media screen and (max-width: $m) {
+      font-size: 2rem;
+    }
+  }
+  .main {
+    font-size: 2rem;
+    padding: 2rem;
+    height: 40vh;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: row;
 
-                }
-            }
-            
-           
-        }
+    @media screen and (max-width: $xxxl) {
+      flex-direction: column;
+      align-items: center;
     }
-    
+    @media screen and (max-width: $xxl) {
+      font-size: 1.4rem;
+      margin: 0.3rem auto;
+    }
+    @media screen and (max-width: $m) {
+      font-size: 1rem;
+    }
+    .links {
+      .connectionButton {
+        width: 15rem;
+        height: 2.5rem;
+        border: none;
+        font-size: 1.5rem;
+        background-color: $mainColor1;
+        border-radius: 1rem;
+        margin: auto;
+        @media screen and (max-width: $xxxl) {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-top: 1rem;
+        }
+        @media screen and (max-width: $m) {
+          font-size: 1rem;
+          width: 10rem;
+        }
+        &:hover {
+          background-color: $mainColor2;
+        }
+
+        a {
+          text-decoration: none;
+          color: white;
+        }
+      }
+    }
+  }
 }

@@ -1,15 +1,13 @@
 import React from "react";
-import Navigation from "./navigation"
-import styles from '../styles/layout.module.scss'
+import Navigation from "./navigation";
+import styles from "../styles/layout.module.scss";
 
 export default function Layout({ children }) {
-    return (
+  return (
+    <div className={styles.layout}>
+      <Navigation />
 
-        <div className={styles.layout}>
-            <Navigation />
-
-            <div className={styles.children}>{children && children}</div>
-        </div>
-
-    )
+      <div className={styles.children}>{children && children}</div>
+    </div>
+  );
 }

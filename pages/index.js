@@ -1,10 +1,10 @@
-import Head from 'next/head';
+import Head from "next/head";
 
 import React from "react";
-import About from '../components/About';
-import Contact from '../components/Contact';
-import Footer from '../components/Footer';
-import Projects from '../components/Projects';
+import About from "../components/About";
+import Contact from "../components/Contact";
+import Footer from "../components/Footer";
+import Projects from "../components/Projects";
 
 export default function Home() {
   return (
@@ -12,7 +12,10 @@ export default function Home() {
       <Head>
         <title>Yunus İNAN | Home</title>
         <link rel="stylesheet" href="/favicon.ico" />
-        <meta name="description" content="frontend developer projects personal website"></meta>
+        <meta
+          name="description"
+          content="frontend developer projects personal website"
+        ></meta>
       </Head>
       <div className="section1" id="about">
         <About></About>
@@ -25,7 +28,5 @@ export default function Home() {
       </div>
       <Footer></Footer>
     </>
-
-
-  )
+  );
 }

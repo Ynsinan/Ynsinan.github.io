@@ -1,110 +1,99 @@
-
 @import "variables";
-.about{
-    width:80%;
-    display: flex;
-    justify-content: space-between;
+.about {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  @media screen and (max-width: $xxxxxxl) {
+    width: 100%;
+  }
+  @media screen and (max-width: $xxxl) {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .aboutMe {
+    width: 50%;
+    margin: auto 10px;
+    text-align: center;
+    // font-size: x-large;
+    letter-spacing: 0.3px;
+    line-height: 50px;
     @media screen and (max-width: $xxxxxxl) {
-       width: 100%;
+      font-size: 1rem;
+      margin: auto;
+      line-height: 40px;
+    }
+    @media screen and (max-width: $xxxxl) {
+      font-size: 0.7rem;
+      line-height: 30px;
     }
     @media screen and (max-width: $xxxl) {
-       display: block;
-       justify-content: center;
-       align-items: center;
-       width: 100%;
-       
+      width: 100%;
     }
-    .aboutMe{
-        width: 50%;
-        margin: auto 10px;
-        text-align: center;
-        // font-size: x-large;
-        letter-spacing: 0.3px;
-        line-height: 50px;
-        @media screen and (max-width: $xxxxxxl) {
-            font-size: 1rem;
-            margin: auto;
-            line-height: 40px;
-           
-        }
-        @media screen and (max-width: $xxxxl) {
-            font-size: 0.7rem;
-            line-height: 30px;
-           
-        }
-        @media screen and (max-width: $xxxl) {
-            width: 100%;
-            
-        }
-        
-        
-        .strong{
-            color: $mainColor1;
-            font-size: 2rem;
-            @media screen and (max-width: $xxxxxxl) {
-                font-size: 1.6rem;
-            }
-            @media screen and (max-width: $xxxxl) {
-                font-size: 1.3rem;
-            }
-            @media screen and (max-width: $xxxl) {
-                display: flex;
-                align-items: center;
 
-                justify-content: center;
-            }
-        }
-        .resumeButton{
-            
-            border: none;
-            font-size: 1.4rem;
-            background: $mainColor1;
-            border-radius: 1rem;
-            padding: 0.4rem;
-            margin: auto;
-            text-decoration: none;
-            @media screen and (max-width: $xxxxxl) {
-                font-size: 1rem;
-            }
-            @media screen and (max-width: $xxxxl) {
-                font-size: 1.3rem;
-                margin-top: 1rem;
-            }
-            a{
-                text-decoration: none;
-                color: white;
-                &:active{
-                    color: white;
-                }
-            }
-            
-        }
-        .hr{
-            width: 100%;
-            display: block; height: 1px;
-            border: 0;
-            border-top: 1px solid $mainColor1;
-            margin: 1em 0;
-            padding: 0;
-        }
-        
+    .strong {
+      color: $mainColor1;
+      font-size: 2rem;
+      @media screen and (max-width: $xxxxxxl) {
+        font-size: 1.6rem;
+      }
+      @media screen and (max-width: $xxxxl) {
+        font-size: 1.3rem;
+      }
+      @media screen and (max-width: $xxxl) {
+        display: flex;
+        align-items: center;
+
+        justify-content: center;
+      }
     }
-    .rightSide{
-       
-        margin: auto 10px;
-        width: 50%;
-         @media screen and (max-width: $xxxl) {
-            width: 100%;
-           margin: auto auto;
+    .resumeButton {
+      border: none;
+      font-size: 1.4rem;
+      background: $mainColor1;
+      border-radius: 1rem;
+      padding: 0.4rem;
+      margin: auto;
+      text-decoration: none;
+      @media screen and (max-width: $xxxxxl) {
+        font-size: 1rem;
+      }
+      @media screen and (max-width: $xxxxl) {
+        font-size: 1.3rem;
+        margin-top: 1rem;
+      }
+      a {
+        text-decoration: none;
+        color: white;
+        &:active {
+          color: white;
         }
-        .video{
-            width: 100%;
-            object-fit: cover;
-            margin-right: auto;
-            margin-left: auto;
-            // box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-            
-        }
-        
+      }
     }
+    .hr {
+      width: 100%;
+      display: block;
+      height: 1px;
+      border: 0;
+      border-top: 1px solid $mainColor1;
+      margin: 1em 0;
+      padding: 0;
+    }
+  }
+  .rightSide {
+    margin: auto 10px;
+    width: 50%;
+    @media screen and (max-width: $xxxl) {
+      width: 100%;
+      margin: auto auto;
+    }
+    .video {
+      width: 100%;
+      object-fit: cover;
+      margin-right: auto;
+      margin-left: auto;
+      // box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    }
+  }
 }

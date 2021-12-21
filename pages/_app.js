@@ -1,7 +1,6 @@
-import '../styles/global.scss'
+import "../styles/global.scss";
 import Head from "next/head";
 import Layout from "../components/Layout";
-
 
 export default function App({ Component, pageProps }) {
   return (
@@ -12,7 +11,6 @@ export default function App({ Component, pageProps }) {
       <Layout>
         <Component {...pageProps}></Component>
       </Layout>
-
     </>
-  )
+  );
 }

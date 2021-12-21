@@ -1,13 +1,12 @@
-
 @import "variables";
-.footer{
-    width: 100%;
-    background-color: $mainColor1;
-    text-align: center;
-    
-    width: 100%;
-    .footertext{
-        color: white;
-        font-family: 'Work Sans', sans-serif;
-    }
+.footer {
+  width: 100%;
+  background-color: $mainColor1;
+  text-align: center;
+
+  width: 100%;
+  .footertext {
+    color: white;
+    font-family: "Work Sans", sans-serif;
+  }
 }

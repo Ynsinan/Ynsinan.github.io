@@ -1,33 +1,29 @@
-
 @import "variables";
 
-.contact{
-    
-    .header{
-        font-size: 2rem;
-        color: white;
-        margin-bottom: 1rem;
-        @media screen and (max-width: $l) {
-            font-size: 1.5rem;
-        }
-        @media screen and (max-width: $m) {
-            font-size: 1.2rem;
-        }
-        
+.contact {
+  .header {
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 1rem;
+    @media screen and (max-width: $l) {
+      font-size: 1.5rem;
     }
-    .icons{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 1rem;
-        .icon {
-            color: white;
-            margin-right: 10px;
-            &:hover {
-                color: $mainColor2;
-                filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.3));
-            }
-        }
-           
+    @media screen and (max-width: $m) {
+      font-size: 1.2rem;
     }
+  }
+  .icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    .icon {
+      color: white;
+      margin-right: 10px;
+      &:hover {
+        color: $mainColor2;
+        filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.3));
+      }
+    }
+  }
 }
