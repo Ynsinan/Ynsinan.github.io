@@ -3,6 +3,7 @@ import styles from "../styles/about.module.scss";
 import Typical from "react-typical";
 import Technologies from "./About/Technologies";
 import Link from "next/link";
+
 export default function About() {
   return (
     <div className={styles.about}>
@@ -30,6 +31,7 @@ export default function About() {
             target="_blank"
             style={{ textDecoration: "none" }}
             href="https://drive.google.com/file/d/1DCXjt7WTI1tfvpDl5q2MP69LC33LddAo/view?usp=sharing"
+            download
           >
             Resume
           </a>
