@@ -30,7 +30,7 @@ export default function About() {
           <a
             target="_blank"
             style={{ textDecoration: "none" }}
-            href="https://drive.google.com/file/d/1DCXjt7WTI1tfvpDl5q2MP69LC33LddAo/view?usp=sharing"
+            href="https://drive.google.com/file/d/1gqs184_jZbi89vRFGok5sX50OPMxTgIX/view?usp=sharing"
             download
           >
             Resume
